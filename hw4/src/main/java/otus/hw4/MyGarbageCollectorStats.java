@@ -6,14 +6,14 @@ import java.util.HashMap;
 public class MyGarbageCollectorStats {
 
     //данные за последний вызов статистики
-    private static HashMap<String, Long> lastGCCountByName = new HashMap(); //кол-во сборок по типам
-    private static HashMap<String, Long> lastGCDurationByName = new HashMap(); //время сборок по типам
+    private static HashMap<String, Long> lastGCCountByName = new HashMap<>(); //кол-во сборок по типам
+    private static HashMap<String, Long> lastGCDurationByName = new HashMap<>(); //время сборок по типам
     //данные за весь период работы
-    public static HashMap<String, Long> totGCCountByName = new HashMap();
-    public static HashMap<String, Long> totGCDurationByName = new HashMap();
+    public static HashMap<String, Long> totGCCountByName = new HashMap<>();
+    public static HashMap<String, Long> totGCDurationByName = new HashMap<>();
     //данные за ~1 минуту работы
-    public static HashMap<String, Long> avgGCCountByName = new HashMap();
-    public static HashMap<String, Long> avgGCDurationByName = new HashMap();
+    public static HashMap<String, Long> avgGCCountByName = new HashMap<>();
+    public static HashMap<String, Long> avgGCDurationByName = new HashMap<>();
     //начало отсчета
     private long startTime = 0;
 
